@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DUDU Frete</h1>
+    </header>
+    <main>
+        <div class="truck-container">
+            <img src="img/Captura de tela 2025-10-01 010629.png" alt="Caminhão vermelho com traseira aberta" class="truck-img">
+        </div>
+        <form id="frete-form">
+            <label for="saida">Saída:</label>
+            <input type="text" id="saida" name="saida" placeholder="Cidade de origem" required>
+
+            <label for="destino">Destino:</label>
+            <input type="text" id="destino" name="destino" placeholder="Cidade de destino" required>
+
+            <label for="horario">Horário disponível:</label>
+            <select id="horario" name="horario" required>
+                <option value="">Selecione um horário</option>
+                <option>08:00</option>
+                <option>10:00</option>
+                <option>13:00</option>
+                <option>15:00</option>
+                <option>18:00</option>
+            </select>
+
+            <button type="submit">Solicitar Frete</button>
+        </form>
+        <div id="contato" class="contato-box">
+            <h2>Entrar em contato com o Freteiro</h2>
+            <button id="btn-contato">WhatsApp</button>
+        </div>
+        <div id="resposta" class="resposta"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

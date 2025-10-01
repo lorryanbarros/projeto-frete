@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #b71c1c;
+    color: #fff;
+    padding: 30px 0 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+main {
+    max-width: 500px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    padding: 30px 20px 40px 20px;
+    text-align: center;
+}
+
+.truck-container {
+    margin-bottom: 20px;
+}
+
+.truck-img {
+    width: 220px;
+    height: auto;
+    filter: drop-shadow(0 4px 12px rgba(183,28,28,0.25));
+    border-radius: 10px;
+    background: #fff;
+    border: 2px solid #b71c1c;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: 600;
+    color: #b71c1c;
+    text-align: left;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+
+input:focus, select:focus {
+    border: 1.5px solid #b71c1c;
+}
+
+button[type="submit"] {
+    background: #b71c1c;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+    background: #d32f2f;
+}
+
+.contato-box {
+    margin-top: 10px;
+    background: #ffeaea;
+    border-radius: 8px;
+    padding: 18px 10px 20px 10px;
+    box-shadow: 0 2px 8px rgba(183,28,28,0.07);
+}
+
+.contato-box h2 {
+    margin: 0 0 10px 0;
+    color: #b71c1c;
+    font-size: 1.2rem;
+}
+
+#btn-contato {
+    background: #25d366;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#btn-contato:hover {
+    background: #128c7e;
+}
+
+.resposta {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #388e3c;
+    font-weight: 600;
+    min-height: 24px;
+}
